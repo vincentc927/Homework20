@@ -1,0 +1,110 @@
+.bgwhite {
+  background-color: white;
+  height: 100px;
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+.nav-link {
+  color: #72096C;
+  font-family: "Futura", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.jumbotron {
+  background-image: url("assets/jumbotron-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.heading {
+  color: #72096C;
+  font-family: "Futura", Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.display-4 {
+  color: #72096C;
+  font-weight: bold;
+  font-family: "Futura", Arial, Helvetica, sans-serif;
+}
+
+.lead {
+  color: white;
+  font-size: 40px;
+}
+
+.lead-2 {
+  font-size: 24px;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  font-family: "Futura";
+}
+
+.btn {
+  background-color: #72096C;
+  border: none;
+  color: white;
+}
+
+.btn:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.card-header {
+  background-color: #72096C;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.diagram, .diagram img {
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  font-family: "Futura", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+.container {
+  background-color: #25B09C;
+  padding: 20px 20px;
+  margin-top: 100px;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.col-sm-8 {
+  background-color: #25B09C;
+  margin-bottom: 100px;
+}
+
+.col-sm {
+  text-align: center;
+  background-color: #72096C;
+}
+
+
+@media (max-width: 500px) { 
+
+.jumbotron {
+  height: 400px;
+}
+
+}
